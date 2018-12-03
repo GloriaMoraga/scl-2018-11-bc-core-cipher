@@ -6,9 +6,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+      <header>
+          <div id="logo"> <h1>CodifiK2</h1><p>Aunque todos lo lean, tu decides quien lo entiende.</p> </div>
+         </header>
+                   <div id="containerFirst">
+                       
+                       
+                         <textarea id = "CipherText" rows = "15" cols = "80"></textarea><br/>
+                         <p><input type="text" id="desplazamiento"> Nuemero secreto para codificar</p><br/>
+                         <button type="button" id="btnCipher">Codificar</button>
+                         <button type="button" id="btnDescipher">Descifrar</button>
+         
+                         <div id="contentResult"></div>
+                     
+         
+                       
+                      </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
