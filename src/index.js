@@ -32,8 +32,12 @@
     
     (evento) => {
       evento.preventDefault();
+      
       let textDescipher = document.getElementById('CipherText').value;
+                      document.getElementById("CipherText").value = "";
       let offsetDes = document.getElementById('desplazamiento').value;
+                   document.getElementById('desplazamiento').value= "";
+
       let resultadoDes = cipher.decode(textDescipher, offsetDes);
    
 
@@ -48,5 +52,6 @@
         let cipherReady = document.createTextNode(resultadoDes);
         contentCiphP.appendChild(cipherReady);
         contentCipher.appendChild(contentCiphP);
+        
 
     });
