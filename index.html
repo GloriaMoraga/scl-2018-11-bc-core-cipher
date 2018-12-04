@@ -2,20 +2,27 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>CODIFIK2</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
       <header>
-          <h1>CodifiK2</h1><p>Aunque todos lo lean, tu decides quien lo entiende.</p> 
+          <h1>CODIFIK2</h1><p>Aunque todos lo lean, tu decides quien lo entiende.</p> 
          </header>
                    <div id="container">
+                     <div class="textarea">
                          <textarea id = "CipherText" rows = "15" cols = "80"></textarea>
-                         <p><input type="text" id="desplazamiento"> Nuemero secreto para codificar</p>
-                         <button type="button" id="btnCipher">Codificar</button>
-                         <button type="button" id="btnDescipher">Descifrar</button>
-         
-                         <div id="contentResult"></div>
+                         <p><input type="text" id="desplazamiento"> Ingresa el numero secreto para codificar</p>
+                         <button class="btn orange" type="button" id="btnCipher" > Codificar </button>
+                         <button class="btn yellow" type="button" id="btnDescipher" > Descifrar </button>
+                        </div>
+                         <div id="contentResult" class="resultadocontent">
+                           
+                         </div>
+
+                         <div id="contentResultD" class="resultadocontentD">
+                           
+                          </div>
                      </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
