@@ -1,38 +1,31 @@
 
-    const content = document.getElementById('contentResult');
+let content = document.getElementById('contentResult');
+
    
     document.getElementById('btnCipher').addEventListener('click',
     (evento) => {evento.preventDefault();
-
        let textCipher = document.getElementById('CipherText').value;
                         document.getElementById("CipherText").value = "";
-       let offset = document.getElementById('desplazamiento').value;
-                        document.getElementById('desplazamiento').value= "";
-       let resultado = cipher.encode(textCipher, offset);
-
-
-        //conectando js con div en html
-        const contentCipher = document.createElement('div');
-        contentCipher.classList.add('contentStyle');
-        content.appendChild(contentCipher);
-
-         //crear elementos para visualizar texto cifrado
-        const contentCiphP = document.createElement('p');
-        contentCiphP.classList.add('texto');
-        let cipherReady = document.createTextNode(resultado);
-        contentCiphP.appendChild(cipherReady);
-        contentCipher.appendChild(contentCiphP);
+       let offset = document.getElementById('desplazamiento').value;                
+       let resultado = cipher.encode(textCipher, offset); 
+        const CipherTextDes = document.createElement('p');
+        CipherTextDes.classList.add('texto');
+        let cipherReadyDes = document.createTextNode(resultado);
+        CipherTextDes.appendChild(cipherReadyDes);
+        content.appendChild(cipherReadyDes);
+      
+       
+        
         
 
 
     });
 
  //DESCIFRANDO TEXTO CIFRADO
-    const contentDes = document.getElementById('contentResultDes');
+    let contentDes = document.getElementById('contentResult');
     document.getElementById('btnDescipher').addEventListener('click',
-    
-    (evento) => {
-      evento.preventDefault();
+     (evento) => {evento.preventDefault();
+       
       
       let textDescipher = document.getElementById('CipherText').value;
                       document.getElementById("CipherText").value = "";
@@ -42,53 +35,36 @@
       let resultadoDes = cipher.decode(textDescipher, offsetDes);
    
 
-      //conectando js con div en html
-        const contentCipher = document.createElement('div');
-        contentCipher.classList.add('contentStyle');
-        contentDes.appendChild(contentCipher);
-
-    //crear elementos para visualizar texto cifrado
+      //crear elementos para visualizar texto cifrado
         const contentCiphP = document.createElement('p');
-        contentCiphP.classList.add('texto');
+        contentCiphP.classList.add('textodes');
         let cipherReady = document.createTextNode(resultadoDes);
         contentCiphP.appendChild(cipherReady);
-        contentCipher.appendChild(contentCiphP);
-        content.parentNode.removeChild(content);
+        contentDes.appendChild(contentCiphP);
+        
+        
         
 
     });
 
-    //boton para copiar el mensaje de resultado
-  document.getElementById("btnCopy").onclick = () => {
-      if("contentResult" !== " "){
+
+ //boton para copiar el mensaje de resultado
+  document.getElementById("btnCopy").addEventListener('click',() => {
+    
     let selectMessage = document.getElementById("contentResult");
     let range = document.createRange();
     let select = window.getSelection();
-
-    select.removeAllRanges();
-    range.selectNodeContents(selectMessage);
-    select.addRange(range);
-    document.execCommand("copy"); }
-    else if ("contentResultDes" !== " "){
-        let selectMessage = document.getElementById("contentResultDes");
-    let range = document.createRange();
-    let select = window.getSelection();
-
-    select.removeAllRanges();
+     select.removeAllRanges();
     range.selectNodeContents(selectMessage);
     select.addRange(range);
     document.execCommand("copy"); 
 
-    }
+  });
 
-  };
+ //boton para clearel mensaje de resultado
+  document.getElementById("btnClear").addEventListener('click',() => {
+
+ document.getElementById("contentResult").innerHTML = "";
 
 
-  document.getElementById("btnClear").onclick = () => {
-      if("contentResult" === " "){
-
-  document.getElementById("contentResult").innerHTML = "";}
-  else{
-  document.getElementById("contentResultDes").innerHTML = "";
-}
-};
+});
