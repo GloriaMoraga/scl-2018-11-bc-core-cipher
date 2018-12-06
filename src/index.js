@@ -22,12 +22,13 @@
         let cipherReady = document.createTextNode(resultado);
         contentCiphP.appendChild(cipherReady);
         contentCipher.appendChild(contentCiphP);
+        
 
 
     });
 
  //DESCIFRANDO TEXTO CIFRADO
-    const contentDes = document.getElementById('contentResult');
+    const contentDes = document.getElementById('contentResultDes');
     document.getElementById('btnDescipher').addEventListener('click',
     
     (evento) => {
@@ -52,6 +53,42 @@
         let cipherReady = document.createTextNode(resultadoDes);
         contentCiphP.appendChild(cipherReady);
         contentCipher.appendChild(contentCiphP);
+        content.parentNode.removeChild(content);
         
 
     });
+
+    //boton para copiar el mensaje de resultado
+  document.getElementById("btnCopy").onclick = () => {
+      if("contentResult" !== " "){
+    let selectMessage = document.getElementById("contentResult");
+    let range = document.createRange();
+    let select = window.getSelection();
+
+    select.removeAllRanges();
+    range.selectNodeContents(selectMessage);
+    select.addRange(range);
+    document.execCommand("copy"); }
+    else if ("contentResultDes" !== " "){
+        let selectMessage = document.getElementById("contentResultDes");
+    let range = document.createRange();
+    let select = window.getSelection();
+
+    select.removeAllRanges();
+    range.selectNodeContents(selectMessage);
+    select.addRange(range);
+    document.execCommand("copy"); 
+
+    }
+
+  };
+
+
+  document.getElementById("btnClear").onclick = () => {
+      if("contentResult" === " "){
+
+  document.getElementById("contentResult").innerHTML = "";}
+  else{
+  document.getElementById("contentResultDes").innerHTML = "";
+}
+};
