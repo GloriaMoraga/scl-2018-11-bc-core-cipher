@@ -1,18 +1,22 @@
 
-let content = document.getElementById('contentResult');
+  let content = document.getElementById('contentResult');
 
    
     document.getElementById('btnCipher').addEventListener('click',
     (evento) => {evento.preventDefault();
        let textCipher = document.getElementById('CipherText').value;
                         document.getElementById("CipherText").value = "";
-       let offset = document.getElementById('desplazamiento').value;                
+       let offset = document.getElementById('desplazamiento').value;   
+
+       //enviando valores a cipher.js
        let resultado = cipher.encode(textCipher, offset); 
-        const CipherTextDes = document.createElement('p');
-        CipherTextDes.classList.add('texto');
-        let cipherReadyDes = document.createTextNode(resultado);
-        CipherTextDes.appendChild(cipherReadyDes);
-        content.appendChild(cipherReadyDes);
+
+       //crear elementos para visualizar texto cifrado
+        const CipherText = document.createElement('p');
+        CipherText.classList.add('texto');
+        let cipherReady = document.createTextNode(resultado);
+        CipherText.appendChild(cipherReady);
+        content.appendChild( CipherText);
       
        
         
@@ -32,12 +36,13 @@ let content = document.getElementById('contentResult');
       let offsetDes = document.getElementById('desplazamiento').value;
                    document.getElementById('desplazamiento').value= "";
 
+      //enviando valores a cipher.js
       let resultadoDes = cipher.decode(textDescipher, offsetDes);
    
 
       //crear elementos para visualizar texto cifrado
         const contentCiphP = document.createElement('p');
-        contentCiphP.classList.add('textodes');
+        contentCiphP.classList.add('texto');
         let cipherReady = document.createTextNode(resultadoDes);
         contentCiphP.appendChild(cipherReady);
         contentDes.appendChild(contentCiphP);

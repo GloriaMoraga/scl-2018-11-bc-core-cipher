@@ -4,14 +4,17 @@
     <meta charset="utf-8">
     <title>CODIFIK2</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
     <link rel="stylesheet" href="style.css" />
     
    </head>
 <body>
       <header>
-          <h1>CODIFIK2</h1>
+          <img src="codi4.png" alt="codifik2" width="250px">
           <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+<button type="button" class="btn btn-default btn-outline" data-toggle="modal" data-target="#exampleModal">
    ¿Como funciona?
   </button>
       </header>
@@ -19,22 +22,22 @@
             
 
                       <div  class="textAreaFirt">
-                       <p>Ingresa el Texto a Codificar</p>
-                       <textarea id = "CipherText" rows = "5" cols = "50"></textarea>
-                       <input type="text" class="form-control offsetstyle" id="desplazamiento">
-                       <button  type="button" id="btnCipher" > Codificar </button>
-                       <button  type="button" id="btnDescipher"> Descifrar </button>
+                       <p>Ingresa el Texto a Codificar o Descifrar</p>
+                       <textarea id = "CipherText" rows = "8" cols = "50"></textarea>
+                       <input type="text" class="form-control offsetstyle" id="desplazamiento" value="Escribe tu numero secreto" onclick = "if(this.value=='Escribe tu numero secreto') this.value=''">
+                       <button  type="button" class="btn btn-info" id="btnCipher" > Codificar </button>
+                       <button  type="button" class="btn btn-success" id="btnDescipher"> Descifrar </button>
                       </div>  
-                        
+                        <div id="codifik"><i class="fas fa-angle-double-right"></i></div>
                       
                         <div class="Descifrado">
-                          <div id="Result" >
-                            <p>Tu CODIFIKA2 es:</p>
+                        
+                            <p>Tu Mensaje es:</p>
+                            <div id="Result">
                          <div id="contentResult" class="resultadocontent"></div>
-                         <div id="contentResultDes" class="resultadocontent"></div>
                         </div>
-                         <button id="btnClear" > limpiar </button>
-                         <button  id="btnCopy"> Copiar </button>
+                        <button id="btnClear" > <i class="fas fa-redo-alt"></i></button>
+                         <button  id="btnCopy"> <i class="far fa-copy"></i></button>
                         </div>
                       
                         
@@ -51,9 +54,25 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
-            Codificados es un sistema de codificacion de mensajes, ideal para mantener culta alguna informacion
-            ue solo quiere compartir con algunas personas.
+        <div class="modal-body"> 
+          <p class="textsmall">CODIFIK2 es un sistema que utiliza el cifrado césar, una codificación 
+             que va desplazando las letras para crear un mensaje ilegible para los demás. </p>
+             <p class="textsmall">"Aunque  todos lo puedan leer, solo tu decides quien los entiende"</p>
+       
+   
+       <li class="textsmall" >Debes ingresar el texto que quieres que se codifique. </li>
+       <p class="textsmall">(Recuerda que solo debes ingresar letras sin caracteres especiales, 
+       la letra Ñ debes escribirla como N.)</p>
+      <li class="textsmall">Una vez ingresado tu texto, comienza la magia. </li>
+    <li class="textsmall"> Para que este texto sea más personalizado y lo entiendan tú junto a 
+      la persona a quien quieres compartir, también debes ingresar un número que quieras asi
+       este texto lo entenderan solo quienes tú decidas.</li>
+       <p class="textsmall">(Recuerda que al compartir el texto, también tienes que adjuntar el número secreto)</p>
+       <li class="textsmall"> Después de elegir el número para desplazar, haz click en codificar y tu mensaje estará listo para compartir. </li>
+          <li class="textsmall"> Para Descifrar tienes que ingresar el texto que te fue enviado junto al  número secreto y dar click en Descifrar. ...LISTO!!!! </li>
+              <p class="textsmall">Tú mensaje secreto habra sido descifrado!!!!</p>
+       
+            
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>

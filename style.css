@@ -3,7 +3,8 @@
 
 body{
     margin: 0 ;
-    background-color: rgba(26, 188, 156,1.0);
+    background-color: #f0ad4e;
+   
 }
 
 
@@ -14,9 +15,10 @@ header{
    flex-direction: row;
    justify-content: space-around;
    align-items: center;
-   background-color: white;
+  
    height: 100px;
    margin-bottom: 50px;
+   margin-left: -50px;
 
 
 
@@ -26,19 +28,19 @@ header{
 h1{
 
 	font-family: 'Text Me One', sans-serif;
-	color: #666;
+	color: #fff;
     text-align: center;
     font-size: 57px;
-    opacity:.7;
+    opacity:.8;
  
 
 
 }
 p{
 
-    color: #666;
-    font-family: 'Open Sans', 'sans-serif';
-    font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+color: rgb(107, 107, 107);
+font-size: 20px;
     
 
 
@@ -47,20 +49,23 @@ p{
   font-family:'Open Sans', 'sans-serif';
   padding: 10px;
 }
+.textoDes{
+  font-family:'Open Sans', 'sans-serif';
+  padding: 10px;
+}
 
  
+
  #Result{
-   width:400px;
- 
-   height: auto;
- 
-   
-
-
+   width:420px;
+   overflow: auto;
+   background-color: #fff;
+   height: 240px;
+   margin-bottom: 5px;
  }
  .containerFirst{
    display:flex;
-   justify-content:space-around;
+   justify-content:center;
    flex-direction: row;
  
  }
@@ -75,5 +80,61 @@ margin-bottom: 100px;
    border-radius: 5px;
  }
  .offsetstyle{
-  width: 50px;
+  margin-bottom:5px;
  }
+
+
+
+ #codifik{
+  width: 100px;
+  margin-top: 80px;
+  padding-left: 20px;
+  font-size: 70px;
+  color: #fff;
+ }
+
+ .btn {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 120px
+}
+
+.btn.btn-outline {
+  background: 0 0
+}
+ .btn-outline.btn-default {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-outline.btn-default:hover {
+  background-color: #B0BEC5;
+  border-color: #B0BEC5;
+}
+
+.btn-outline.btn-success {
+  border-color: #64DD17;
+  color: #64DD17
+}
+
+.btn-outline.btn-success:hover {
+  border-color: #64DD17;
+  background-color: #64DD17
+}
+
+.btn-outline.btn-warning {
+  border-color: #FFD600;
+  color: #FFD600
+}
+
+.btn-outline.btn-warning:hover {
+  background-color: #FFD600;
+   border-color: #FFD600;
+}
+
+.textsmall{
+  font-size: 14px;
+  
+}
