@@ -1,9 +1,12 @@
 
-# Bienvenidos a CODIFIK2
+
 
 <p align="center">
   <img src="codi4.png">
 </p>
+
+
+## Bienvenidos a CODIFIK2
 
 En nuestra época de hiperconectividad, donde las comunicaciones se extienden en muchas plataformas y medios. La mensajería se sitúa como el primer canal de comunicación superando a las llamadas telefónicas.
 
