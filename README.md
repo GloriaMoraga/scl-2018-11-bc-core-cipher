@@ -1,9 +1,8 @@
 
 # Bienvenidos a CODIFIK2
+
 <p align="center">
-
-![caeser-cipher](codi4.png)
-
+  <img src="codi4.png">
 </p>
 
 En nuestra época de hiperconectividad, donde las comunicaciones se extienden en muchas plataformas y medios. La mensajería se sitúa como el primer canal de comunicación superando a las llamadas telefónicas.
@@ -49,7 +48,8 @@ Con **CODIFIK2** el usuario tiene el poder de elegir cómo quiere codificar el t
 - Para que este texto sea más personalizado y lo entiendan tú junto a la persona a quien quieres compartir, también debes ingresar un número que quieras asi este texto lo entenderan solo quienes tú decidas.
 (Recuerda que al compartir el texto, también tienes que adjuntar el número secreto)
  - Después de elegir el número para desplazar, haz click en codificar y tu mensaje estará listo para compartir. 
-- Para Descifrar tienes que ingresar el texto que te fue enviado junto al  número secreto y dar click en Descifrar. ...LISTO!!!! 
+- Para Descifrar tienes que ingresar el texto que te fue enviado junto al  número secreto y dar click en Descifrar. ...LISTO!!!!
+
                    *Tú mensaje secreto habra sido descifrado!!!!*
 
                   
