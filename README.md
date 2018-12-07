@@ -16,6 +16,9 @@ En nuestra época de hiperconectividad, donde las comunicaciones se extienden en
 ¿Descubiertos? 
 Si, para todas esas personas que quieren mantener la discreción, organizar un evento sorpresa, encontrarse con alguien en especial o simplemente destacarse frente a los demás como únicos.  **CODIFIK2** es una vía confiable y segura para poder pasarlo bien sin preocuparse de los demás.
 
+## Ingresa a la Web CODIFIK2
+
+https://gloriamoraga.github.io/scl-2018-11-bc-core-cipher/
 
 ## Usuarios de CODIFIK2
 
