@@ -1,7 +1,8 @@
 
 # Bienvenidos a CODIFIK2
-
+<p align="center">
 ![caeser-cipher](codi4.png)
+</p>
 
 En nuestra época de hiperconectividad, donde las comunicaciones se extienden en muchas plataformas y medios. La mensajería se sitúa como el primer canal de comunicación superando a las llamadas telefónicas.
 
@@ -48,6 +49,8 @@ Con **CODIFIK2** el usuario tiene el poder de elegir cómo quiere codificar el t
  - Después de elegir el número para desplazar, haz click en codificar y tu mensaje estará listo para compartir. 
 - Para Descifrar tienes que ingresar el texto que te fue enviado junto al  número secreto y dar click en Descifrar. ...LISTO!!!! 
                    *Tú mensaje secreto habra sido descifrado!!!!*
+
+
                    ![caeser-cipher](ingreso-texto.png)
 
 
@@ -60,7 +63,9 @@ nuestra aplicacion estaba pensada en la experiencia de Usuario.
 
 Proceso de Diseño realizado con el concepto minimalista y funcional, poner en pantalla lo que realmente sirve para el usuario sin demasiada informacion.
 
-Se utilizaron colores amigables y alegres como el naranjo y verde.
+Se utilizaron colores amigables y alegres.
+En la sicologia del color el naranja es el color de la diversión, de la sociabilidad y de todo lo alegre. 
+El Color Verde es un color relajante y refrescante.
 
 ![caeser-cipher](codifik2.png)
 
