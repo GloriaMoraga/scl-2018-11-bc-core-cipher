@@ -51,21 +51,21 @@ Con **CODIFIK2** el usuario tiene el poder de elegir cómo quiere codificar el t
                    ![caeser-cipher](ingreso-texto.png)
 
 
-#### Proceso de Desarrollo y Diseño 
+### Proceso de Desarrollo y Diseño 
 Planificacion realizada a través de sistema Trello.
 https://trello.com/b/3m3oYMNN/cifrado-cesar
 
 Se desarrollo un estudio de usuarios y usabilidad, donde se realizaron pruebas para ver si
 nuestra aplicacion estaba pensada en la experiencia de Usuario.
 
-Proceso de Diseño realizado con el concepto minimalista y funcional, poner en pantalla lo que realmente sirve para el usuario con demasiada informacion.
+Proceso de Diseño realizado con el concepto minimalista y funcional, poner en pantalla lo que realmente sirve para el usuario sin demasiada informacion.
 
 Se utilizaron colores amigables y alegres como el naranjo y verde.
 
 ![caeser-cipher](codifik2.png)
 
 
-#### Interfaz de usuario (UI)
+### Interfaz de usuario (UI)
 
 La interfaz debe permitir al usuario:
 
@@ -75,4 +75,8 @@ La interfaz debe permitir al usuario:
 - Insertar un mensaje (texto) a descifrar.
 - Ver el resultado del mensaje descifrado.
 
+### Desarrollado con
 
+- Vanilla JS
+- Html5/Css3
+- Bootstrap
