@@ -52,8 +52,10 @@ Con **CODIFIK2** el usuario tiene el poder de elegir cómo quiere codificar el t
 
                    *Tú mensaje secreto habra sido descifrado!!!!*
 
-                  
-![caeser-cipher](ingreso-texto.png)
+               
+<p align="center"> <img src="ingreso-texto.png">
+</p>   
+
 
 ### Proceso de Desarrollo y Diseño 
 Planificacion realizada a través de sistema Trello.
@@ -68,8 +70,11 @@ Se utilizaron colores amigables y alegres.
 En la sicologia del color el naranja es el color de la diversión, de la sociabilidad y de todo lo alegre. 
 El Color Verde es un color relajante y refrescante.
 
-![caeser-cipher](codifik2.png)
 
+
+<p align="center">
+<img src="codifik2.png">
+</p> 
 
 ### Interfaz de usuario (UI)
 
