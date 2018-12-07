@@ -48,13 +48,21 @@ Con **CODIFIK2** el usuario tiene el poder de elegir cómo quiere codificar el t
  - Después de elegir el número para desplazar, haz click en codificar y tu mensaje estará listo para compartir. 
 - Para Descifrar tienes que ingresar el texto que te fue enviado junto al  número secreto y dar click en Descifrar. ...LISTO!!!! 
                    *Tú mensaje secreto habra sido descifrado!!!!*
+                   ![caeser-cipher](ingreso-texto.png)
 
 
-#### Diseño 
+#### Proceso de Desarrollo y Diseño 
+Planificacion realizada a través de sistema Trello.
+https://trello.com/b/3m3oYMNN/cifrado-cesar
 
-Se Diseño pensando en el concepto minimalista y funcional.
+Se desarrollo un estudio de usuarios y usabilidad, donde se realizaron pruebas para ver si
+nuestra aplicacion estaba pensada en la experiencia de Usuario.
 
-Se utilizaron colores amigables y alegres.
+Proceso de Diseño realizado con el concepto minimalista y funcional, poner en pantalla lo que realmente sirve para el usuario con demasiada informacion.
+
+Se utilizaron colores amigables y alegres como el naranjo y verde.
+
+![caeser-cipher](codifik2.png)
 
 
 #### Interfaz de usuario (UI)
