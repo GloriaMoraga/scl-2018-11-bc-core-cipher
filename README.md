@@ -1,7 +1,9 @@
 
 # Bienvenidos a CODIFIK2
 <p align="center">
+
 ![caeser-cipher](codi4.png)
+
 </p>
 
 En nuestra época de hiperconectividad, donde las comunicaciones se extienden en muchas plataformas y medios. La mensajería se sitúa como el primer canal de comunicación superando a las llamadas telefónicas.
@@ -50,9 +52,8 @@ Con **CODIFIK2** el usuario tiene el poder de elegir cómo quiere codificar el t
 - Para Descifrar tienes que ingresar el texto que te fue enviado junto al  número secreto y dar click en Descifrar. ...LISTO!!!! 
                    *Tú mensaje secreto habra sido descifrado!!!!*
 
-
-                   ![caeser-cipher](ingreso-texto.png)
-
+                  
+![caeser-cipher](ingreso-texto.png)
 
 ### Proceso de Desarrollo y Diseño 
 Planificacion realizada a través de sistema Trello.
