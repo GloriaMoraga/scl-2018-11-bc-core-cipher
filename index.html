@@ -14,7 +14,7 @@
       <header>
           <img src="codi4.png" alt="codifik2" width="250px">
           <!-- Button trigger modal -->
-<button type="button" class="btn btn-default btn-outline" data-toggle="modal" data-target="#exampleModal">
+<button type="button" class="btn btn-warning btn-outline" data-toggle="modal" data-target="#exampleModal">
    ¿Como funciona?
   </button>
       </header>
@@ -23,7 +23,7 @@
 
                       <div  class="textAreaFirt">
                        <p>Ingresa el Texto a Codificar o Descifrar</p>
-                       <textarea id = "CipherText" rows = "8" cols = "50"></textarea>
+                       <textarea id = "CipherText" class="ciphertxt" ></textarea>
                        <input type="text" class="form-control offsetstyle" id="desplazamiento" value="Escribe tu numero secreto" onclick = "if(this.value=='Escribe tu numero secreto') this.value=''">
                        <button  type="button" class="btn btn-info" id="btnCipher" > Codificar </button>
                        <button  type="button" class="btn btn-success" id="btnDescipher"> Descifrar </button>
@@ -61,8 +61,7 @@
        
    
        <li class="textsmall" >Debes ingresar el texto que quieres que se codifique. </li>
-       <p class="textsmall">(Recuerda que solo debes ingresar letras sin caracteres especiales, 
-       la letra Ñ debes escribirla como N.)</p>
+       <p class="textsmall">(La letra Ñ debes escribirla como N.)</p>
       <li class="textsmall">Una vez ingresado tu texto, comienza la magia. </li>
     <li class="textsmall"> Para que este texto sea más personalizado y lo entiendan tú junto a 
       la persona a quien quieres compartir, también debes ingresar un número que quieras asi
